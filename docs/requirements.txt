@@ -7,3 +7,6 @@ tensorboard
 # required to build torch.distributed.elastic.rendezvous.etcd* docs
 python-etcd>=0.4.5
 sphinx_copybutton
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
